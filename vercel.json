@@ -1,21 +1,18 @@
 {
   "redirects": [
     {
-      "source": "http://nextgenlabz.studio/(.*)",
-      "destination": "https://www.nextgenlabz.studio/$1",
-      "permanent": true
-    },
-    {
-      "source": "https://nextgenlabz.studio/(.*)",
-      "destination": "https://www.nextgenlabz.studio/$1",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "nextgenlabz.studio"
+        }
+      ],
+      "destination": "https://www.nextgenlabz.studio/:path*",
       "permanent": true
     }
   ],
   "rewrites": [
-    {
-      "source": "/(.*)\\.(png|jpg|jpeg|gif|svg|webp|ico|xml|txt|json|css|js)",
-      "destination": "/$1.$2"
-    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
