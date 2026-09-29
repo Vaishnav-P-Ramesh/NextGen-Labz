@@ -15,6 +15,7 @@ function Navbar() {
             <li><Link to="/about" className="hover:text-white px-1 py-1 rounded focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-colors">About</Link></li>
             <li><Link to="/contact" className="hover:text-white px-1 py-1 rounded focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-colors">Contact</Link></li>
             <li><Link to="/services" className="hover:text-white px-1 py-1 rounded focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-colors">Services</Link></li>
+            <li><a href="/#works" className="hover:text-white px-1 py-1 rounded focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-colors">Works</a></li>
             <li>
               <Link to="/quote" className="inline-flex items-center gap-1 rounded-full bg-purple-600 px-5 lg:px-6 py-2 text-[11px] lg:text-xs text-white shadow-sm shadow-purple-600/40 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition">Get Quote</Link>
             </li>
@@ -39,6 +40,7 @@ function Navbar() {
             <li><Link onClick={() => setOpen(false)} to="/about" className="block rounded px-3 py-2 hover:bg-neutral-800/70 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500/40">About</Link></li>
             <li><Link onClick={() => setOpen(false)} to="/contact" className="block rounded px-3 py-2 hover:bg-neutral-800/70 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500/40">Contact</Link></li>
             <li><Link onClick={() => setOpen(false)} to="/services" className="block rounded px-3 py-2 hover:bg-neutral-800/70 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500/40">Services</Link></li>
+            <li><a onClick={() => setOpen(false)} href="/#works" className="block rounded px-3 py-2 hover:bg-neutral-800/70 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-500/40">Works</a></li>
             <li><Link onClick={() => setOpen(false)} to="/quote" className="mt-1 inline-flex items-center gap-1 rounded-full bg-purple-600 px-5 py-2 text-[11px] text-white shadow-sm shadow-purple-600/40 hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/60 self-start">Get Quote</Link></li>
           </ul>
         </div>

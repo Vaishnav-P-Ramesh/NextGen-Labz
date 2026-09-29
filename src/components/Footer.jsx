@@ -39,8 +39,10 @@ function Footer() {
 						<h4 className="text-neutral-200 font-medium tracking-wide text-sm">PAGES</h4>
 						<ul className="mt-4 space-y-2 text-sm">
 							<li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-							<li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
 							<li><a href="/about" className="hover:text-white transition-colors">About</a></li>
+							<li><a href="/services" className="hover:text-white transition-colors">Services</a></li>
+							<li><a href="/#works" className="hover:text-white transition-colors">Works</a></li>
+							<li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
 							<li><a href="/quote" className="hover:text-white transition-colors">Get Quote</a></li>
 						</ul>
 					</div>

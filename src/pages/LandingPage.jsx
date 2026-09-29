@@ -8,6 +8,7 @@ import brochurePdf from '../assets/NextGen Labz Offerings.pdf'
 // Carousel image assets (only files that exist in /src/assets/carousel)
 import TechCarousel from '../components/TechCarousel';
 import ServicesPreview from '../components/ServicesPreview';
+import Works from '../components/Works';
 import Testimonials from '../components/Testimonials';
 import FinalCTA from '../components/FinalCTA';
 
@@ -253,6 +254,9 @@ function LandingPage() {
 
         {/* Services Preview */}
         <ServicesPreview />
+
+        {/* Works / Portfolio */}
+        <Works />
 
         {/* Testimonials */}
         <Testimonials />
